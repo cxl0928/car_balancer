@@ -16,6 +16,7 @@ int main(void)
 
     send_String("--- M0 start, sending '0' every 2ms x150 ---\r\n");
 send_String("--- cxlcxl");
+	send_String("--- cxjcxj");
     /* ── 等待 32 回复 ── */
     while (1) {
         uint8_t rx;
