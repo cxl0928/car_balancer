@@ -1,0 +1,16 @@
+# Keil 编译输出
+keil/Objects/
+keil/*.map
+keil/*.uvoptx
+
+# J-Link / 调试产生的文件
+keil/JLinkLog.txt
+keil/JLinkSettings.ini
+keil/EventRecorderStub.scvd
+
+# Keil 用户界面布局（每个人打开都会变）
+keil/*.uvguix*
+
+# Windows
+Thumbs.db
+Desktop.ini
