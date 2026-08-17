@@ -15,7 +15,7 @@ int main(void)
     g_stop_notify_cnt = 150;
 
     send_String("--- M0 start, sending '0' every 2ms x150 ---\r\n");
-
+send_String("--- cxlcxl");
     /* ── 等待 32 回复 ── */
     while (1) {
         uint8_t rx;
